@@ -1,0 +1,217 @@
+ /* Utilities */
+
+    /* heading */
+    .heading {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    hr {
+        margin: 0;
+    }
+    /* Navigation Bar */
+
+    .navi {
+        background-color: #0392CE;
+        height: 46px;
+    }
+
+    .custom-list li{
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .custom-list li a{
+        font-size: 16px;
+        color: white !important;
+    }
+
+    /**/
+
+    #bleu {
+        background-color: #2166DE;
+        height: 4px;
+    }
+
+    /* Jumbotron */
+    .jumbotron {
+        background-image: url(../img/18688.jpg);
+
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .jumbotron .text-box {
+        position: relative;
+
+    }
+
+    .overlay {
+        position: absolute;
+        background-color: black;
+        opacity: 0.38;
+    }
+
+
+
+/* Desktop Version */
+@media (min-width: 792px) {
+
+
+    span {
+        color: #848484;
+        font-size: 16px;
+        font-weight: 300;
+        font-family: 'Hind', sans-serif;
+    }
+
+    .icons {
+        margin-top: 26px;
+    }
+
+    .icons .nav-item {
+        border-radius: 10%;
+        margin-right: 17px;
+    }
+
+    .text-holder {
+        margin: 0 6px;
+    }
+
+    .text-holder h4 {
+        color: #0392ce;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        margin-bottom: -2px;
+    }
+
+    .overlay {
+        top: 148px;
+        left: 0;
+        width: 1432px;
+        height: 801px;
+    }
+
+    .jumbotron {
+        height: 801px;
+        width: 1432px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .jumbotron .text-box {
+        margin-top: 170px;
+        width: 531px;
+        height: 287px;
+        background-color: white;
+        padding-top: 35px;
+        padding-left: 55px;
+        padding-right: 126px;
+    }
+
+    .text-box .display-4 {
+        font-size: 39px;
+        color: #222222;
+        font-weight: bold;
+        line-height: 46px;
+    }
+
+    .nvbcol {
+        display: none;
+    }
+
+    .icons {
+        float: right;
+    }
+
+    .logo-text{
+        margin: 20px 0;
+    }
+
+    .custom-list li {
+        margin: -8px 0;
+        height: 46px;
+        padding: 2px 10px;
+        border-right: 2px solid #F0F0F0;
+    }
+
+    .custom-list li:last-child {
+        border: none;
+    }
+    
+    .custom-list li a{
+        font-size: 16px;
+    }
+ }
+
+
+/* Mobile Version */
+@media (max-width: 576px)
+{
+    .overlay {
+        height: 392px;
+        width: 100%;
+        margin-top: -32px;
+    }
+
+    .logo-text img {
+        margin-top: 16px;
+        width: 133px;
+        height: 37px;
+        margin-bottom: 14px;
+    }
+
+    .nvbcol {
+        margin-top: 11px;
+        margin-bottom: 10px;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .navi .navbar {
+        display: none;
+    }
+
+    .navi {
+        height: 10px;
+    }
+
+    .icons-holder {
+        display: none;
+    }
+
+    .jumbotron {
+        width: 513px;
+        height: 392px;
+        background-size: cover;
+    }
+
+    .jumbotron .text-box {
+        margin-top: 182px;
+    }
+
+
+    .jumbotron .display-4{
+        font-weight: bolder;
+        font-size: 30px;
+        line-height: 35px;
+        color: #FFFFFF;
+    }
+
+    .jumbotron p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        line-height: 12px;
+        color: #D7DCDE;
+    }
+
+    .custom-list li a {
+        float: right;
+    }
+
+
+    .navbar-toggler .navbar-toggler-icon{
+        width: 20px !important;
+        height: 20px !important;
+    }
+}
