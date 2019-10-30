@@ -165,7 +165,7 @@
     }
 
     .jumbotron {
-        width: 513px;
+        width: 100%;
         height: 392px;
         background-size: cover;
     }
