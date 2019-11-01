@@ -21,9 +21,7 @@
 
     .custom-list li a{
         font-family: 'Poppins', sans-serif;
-        font-weight: bold;
         font-size: 16px;
-        color: black !important;
     }
 
     /**/
@@ -56,8 +54,8 @@
 /* Desktop Version */
 @media (min-width: 792px) {
 
-    .header {
-        display: relative;
+    .heading {
+        position: absolute;
     }
 
 
@@ -66,15 +64,6 @@
         font-size: 16px;
         font-weight: 300;
         font-family: 'Hind', sans-serif;
-    }
-
-    .icons {
-        margin-top: 26px;
-    }
-
-    .icons .nav-item {
-        border-radius: 10%;
-        margin-right: 17px;
     }
 
     .text-holder {
@@ -97,7 +86,7 @@
 
     .jumbotron {
         height: 801px;
-        width: 1432px;
+        width: 100%;
         background-size: cover;
         background-position: center;
     }
@@ -119,7 +108,8 @@
         line-height: 46px;
     }
     .logo-text{
-        margin: 30px 0;
+        margin-top: 40px;
+        margin-left: 140px;
     }
 
     .custom-list li {
@@ -128,6 +118,7 @@
     
     .custom-list li a{
         font-size: 16px;
+        color: white !important;
     }
  }
 
@@ -191,6 +182,7 @@
 
     .custom-list li a {
         float: right;
+        color: black !important;
     }
 
 
